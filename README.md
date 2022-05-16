@@ -2,9 +2,9 @@
 
 Тестовое задание состоит из двух задач, каждая задача лежит в соответствующей папке. 
 
-Задача по HTML/CSS находится в директории [html_css_task]()
+Задача по HTML/CSS находится в директории [html_css_task](https://github.com/hadeji33/frontend-developer-test-tasks/tree/master/html_css_task)
 
-Задача по Js находится в директории [js_task]()
+Задача по Js находится в директории [js_task](https://github.com/hadeji33/frontend-developer-test-tasks/tree/master/js_task)
 
 ## Использование
 
