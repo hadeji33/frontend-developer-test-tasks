@@ -8,9 +8,9 @@
 
 ## Использование
 
-Для запуска задания по HTML/CSS откройте файл index.html в браузере
+Для запуска задания по HTML/CSS откройте файл [index.html](https://github.com/hadeji33/frontend-developer-test-tasks/blob/master/html_css_task/index.html) в браузере
 
-Для запуска скрипта из задания по Js потребуется node.js. запустите файл app.js следующим образом:
+Для запуска скрипта из задания по Js потребуется [node.js](https://nodejs.org/ru/). запустите файл app.js следующим образом:
 
 ```bash
 node app.js
