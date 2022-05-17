@@ -12,6 +12,12 @@ h3 {
     margin: auto;
 }
 
+.pannel {
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .top {
     background-color: #EFF8FE;
     height: 30vh;
@@ -37,9 +43,8 @@ h3 {
     display: none;
 }
 
-.main-column {
-    display: flex;
-    flex: 1;
+.tabs .pannel {
+    display: none;
 }
 
 .tab-content {
@@ -50,22 +55,16 @@ h3 {
     display: flex;
 }
 
-.pannel {
-    padding: 30px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.tabs .pannel {
-    display: none;
-}
-
 #tab-about-btn:checked ~ .tab-content .pannel_about, 
 #tab-delivery-btn:checked ~ .tab-content  .pannel_delivery,
 #tab-why-btn:checked ~ .tab-content .pannel_why {
     display: block;
 }
 
+.main-column {
+    display: flex;
+    flex: 1;
+}
 
 .aside-column {
     height: 480px;
@@ -76,7 +75,6 @@ h3 {
     display: grid;
     grid-template-rows: 120px 30px auto;
 }
-
 .aside-column__top {
     background-color: #F1E57F;
 }
@@ -99,4 +97,3 @@ h3 {
     width: 100%;
     height: auto;
 }
-
