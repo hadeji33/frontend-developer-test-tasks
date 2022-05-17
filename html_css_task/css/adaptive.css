@@ -1,0 +1,18 @@
+@media screen and (max-width: 1199px) {
+    .image-gallery {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tabs > label {
+        font-size: 1rem;
+        padding: 16px 26px;
+    }
+    .aside-column {
+        width: 250px;
+    }
+    .image-gallery {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
